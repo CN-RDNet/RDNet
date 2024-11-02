@@ -9,6 +9,6 @@ Datasets and code for `RDNet: Robust Detection of Malicious Encrypted Traffic ag
 3、The CIC-IOT-2023 dataset can be obtained at [Canadian Institute for Cybersecurity]( https://www.unb.ca/cic/datasets/iotdataset-2023.html).
 
 ## Directory Structure
-1、datset:We provide the processed MTA dataset. The dataset uses the improved PLD algorithm and has been modeled as an AFG graph structure. The dataset is stored as a bin file and a pkl file.
+1、datset: We provide the processed MTA dataset. The dataset uses the improved PLD algorithm and has been modeled as an AFG graph structure. The dataset is stored as a bin file and a pkl file.
 
 2、code：We have integrated the data reading and classification modules into a single Python file.
