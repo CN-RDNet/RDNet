@@ -317,4 +317,4 @@ def main(trainset, max_epoch=60, patience=10):
     print(f"\nWeighted Average PR: {weighted_avg['precision']:.4f},RC: {weighted_avg['recall']:.4f},F1: {weighted_avg['f1-score']:.4f}")
 
 if __name__ == '__main__':
-    main(trainset=r"../dataset/MTA.bin", max_epoch=30)
+    main(trainset=r"../dataset/MTA_sample.bin", max_epoch=30)
