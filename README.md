@@ -13,5 +13,12 @@ Datasets and code for `RDNet: Robust Detection of Malicious Encrypted Traffic ag
 
 2、code：We have integrated the data reading and classification modules into a single Python file.
 
+## Environment
+python 3.9
+
+requirement：`requirement.txt`
+
 ## How to run
-run `code/RDNet.py` 
+`cd code`
+
+`python RDNet.py`
