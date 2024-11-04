@@ -12,3 +12,6 @@ Datasets and code for `RDNet: Robust Detection of Malicious Encrypted Traffic ag
 1、datset: We provide a sample of the processed MTA dataset. The dataset uses the improved PLD algorithm and has been modeled as an AFG graph structure. The dataset is stored as a bin file and a pkl file.
 
 2、code：We have integrated the data reading and classification modules into a single Python file.
+
+## How to run
+run `code/RDNet.py` 
