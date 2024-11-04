@@ -13,6 +13,12 @@ Datasets and code for `RDNet: Robust Detection of Malicious Encrypted Traffic ag
 
 2、code：We have integrated the data reading and classification modules into a single Python file.
 
+## How to clone
+`git clone https://github.com/CN-RDNet/RDNet.git`
+
+`git lfs pull`
+
+
 ## Environment
 python 3.9
 
