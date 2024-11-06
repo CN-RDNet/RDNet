@@ -209,7 +209,7 @@ def main(trainset, max_epoch=60, patience=10):
     data_loader = Dataset_load(dumpFilename=trainset)
     model = Classifier(nb_classes=len(data_loader.labelNameSet), latent_feature_length=256, use_gpu=True, device='cuda', layer_type='GAT')
     loss_func = nn.CrossEntropyLoss()
-    optimizer = optim.Adam(params=model.parameters(), lr=1e-4)
+    optimizer = optim.Adam(params=model.parameters(), lr=6e-4)
 
     if torch.cuda.is_available():
         model = model.cuda()
@@ -218,7 +218,7 @@ def main(trainset, max_epoch=60, patience=10):
     model.train()
     epoch_losses = []
     epoch_accuracy_es = []
-    batch_size = 32
+    batch_size = 12
 
     best_loss = float('inf')
     patience_counter = 0
